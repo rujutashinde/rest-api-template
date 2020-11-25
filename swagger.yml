@@ -1,0 +1,31 @@
+swagger: "2.0"
+info:
+  description: This is the swagger file that goes with our server code
+  version: "1"
+  title: Swagger ReST Article
+consumes:
+  - application/json
+produces:
+  - application/json
+
+basePath: /api
+
+# Paths supported by the server application
+paths:
+  /pathname:
+    post:
+      operationId: app.myapi.function
+      tags:
+        - Requirements
+      summary: Post the entire requirements list
+      description: Provide an object for the API to use in its POST function.
+      parameters:
+        - name: objectName
+          in: body
+          description: Entire the object
+          required: False
+          schema:
+            type: object
+      responses:
+        201:
+          description: Successfully posted object
