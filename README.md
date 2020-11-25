@@ -1,6 +1,6 @@
 # REST API Template
 
-This is an OpenShift-deployable template for a REST API and OpenAPI Specification that leverage Swagger. Please refer to the corresponding tutorial found here:
+This is an OpenShift-deployable template for a REST API and OpenAPI Specification that leverage Swagger. Please refer to the corresponding tutorial found here: https://docs.google.com/document/d/1wVPtvq-G80un4YMZUdoUpJzaWXxInL-TzGDtKJ3qSo4/edit?usp=sharing
 
 To run the API:
     
